@@ -4,5 +4,8 @@
   "main": "index.js",
   "repository": "git@github.com:dnstld/file-upload-nodejs-back-end.git",
   "author": "Denis Toledo <contato@denistoledo.com.br>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
 }
