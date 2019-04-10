@@ -5,7 +5,14 @@
   "repository": "git@github.com:dnstld/file-upload-nodejs-back-end.git",
   "author": "Denis Toledo <contato@denistoledo.com.br>",
   "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js"
+  },
   "dependencies": {
     "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.11"
   }
 }
